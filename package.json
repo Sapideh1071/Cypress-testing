@@ -1,0 +1,20 @@
+{
+  "name": "testautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "openCypress" : "cypress open",
+    "runCypress" : "cypress run",
+    "runTestOnChrome" : "cypress run --browser chrome " ,
+    "headedTestRun" : "cypress run --headed",
+    "singleFileRun" : "cypress run --spec cypress/integration/Samplehooks/sample-hooks.js ",
+   "cypressDashboardRun" : "cypress run --record --key 61196712-a47f-4046-a57b-a82bdb4fb667 --spec cypress/integration/frameWorkTest.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.2.0"
+  }
+}
